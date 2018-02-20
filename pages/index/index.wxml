@@ -22,7 +22,7 @@
         5人正在坚持
       </view>
       <view class="task__avatars">
-        <image class="avatar avatar1" src="https://i.imgur.com/GPGHA5f.jpg"></image>
+        <image class="avatar avatar1" src="/assets/unicar.jpg"></image>
         <image class="avatar avatar2" src="https://i.imgur.com/GPGHA5f.jpg"></image>
       </view>
     </view>
