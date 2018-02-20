@@ -1,21 +1,71 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+
+.task__card {
+  margin-top: 20rpx;
+  width: 90vw;
+  height: 25vh;
+  border-radius: 10rpx;
+  background: #eee;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+.task__card:nth-child(4n+1) {
+  background:#C36CC4;
+}
+
+.task__card:nth-child(4n+2) {
+  background:#3C9EE6;
+}
+
+.task__card:nth-child(4n+3) {
+  background:#F18805;
+}
+
+.task__card:nth-child(4n+4) {
+  background:#5DD9C1;
+}
+
+.task__progress {
+  height: 20rpx;
+  width: calc(100% - 30rpx);
+  margin: 15rpx auto; 
+  background: white;
+  border-radius: 10rpx;
+}
+
+.task__progress--filled {
+  height: 100%;
+  width: 75%;
+  background: #ACFCD9;
+  border-radius: 10rpx;
+}
+
+/* .task__title {
+  color: white;
+  margin: 10rpx 0 0 15rpx;
+}
+
+.task__remain {
+  color: white;
+  margin: 10rpx 15rpx 0 0;
+} */
+
+.task__avatars {
+  
+}
+
+image.avatar {
+  width: 58rpx;
+  height: 58rpx;
   border-radius: 50%;
+  border: 2rpx white solid;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.task__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rpx 15rpx;
+  color: white;
 }
 
-.usermotto {
-  margin-top: 200px;
-}
