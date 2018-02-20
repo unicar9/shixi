@@ -1,13 +1,14 @@
 /**index.wxss**/
 
-
-
 .task__card {
   margin-top: 20rpx;
   width: 90vw;
   height: 25vh;
   border-radius: 10rpx;
   background: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .task__card:nth-child(4n+1) {
@@ -41,20 +42,6 @@
   border-radius: 10rpx;
 }
 
-/* .task__title {
-  color: white;
-  margin: 10rpx 0 0 15rpx;
-}
-
-.task__remain {
-  color: white;
-  margin: 10rpx 15rpx 0 0;
-} */
-
-.task__avatars {
-  
-}
-
 image.avatar {
   width: 58rpx;
   height: 58rpx;
@@ -62,10 +49,13 @@ image.avatar {
   border: 2rpx white solid;
 }
 
-.task__header {
+.task__header, .task__footer {
   display: flex;
   justify-content: space-between;
   margin: 10rpx 15rpx;
   color: white;
 }
 
+.avatar1 {
+  transform: translateX(50%);
+}
